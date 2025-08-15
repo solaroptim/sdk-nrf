@@ -68,7 +68,7 @@ manifest:
     - name: zephyr
       remote: solaroptim
       repo-path: sdk-zephyr
-      revision: 793e93e14667c87968d75c1666a9a99b44a054c9
+      revision: main
       import:
         # In addition to the zephyr repository itself, NCS also
         # imports the contents of zephyr/west.yml at the above
