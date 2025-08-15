@@ -20,6 +20,8 @@ manifest:
     # NCS repositories are hosted here.
     - name: ncs
       url-base: https://github.com/nrfconnect
+    - name: solaroptim
+      url-base: https://github.com/solaroptim
     # Third-party repository sources:
     - name: zephyrproject
       url-base: https://github.com/zephyrproject-rtos
@@ -64,6 +66,7 @@ manifest:
     # https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/introduction/index.html
     # https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/guides/modules.html
     - name: zephyr
+      remote: solaroptim
       repo-path: sdk-zephyr
       revision: 793e93e14667c87968d75c1666a9a99b44a054c9
       import:
@@ -96,6 +99,7 @@ manifest:
           - libmetal
           - littlefs
           - loramac-node
+          - lora-basics-modem
           - lvgl
           - lz4
           - mipi-sys-t
